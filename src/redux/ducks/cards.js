@@ -13,7 +13,7 @@ const initialState = {
       cardNumber: "1234567891011123",
       cardHolder: "Henric Nguyen",
       expireMonth: 12,
-      expireYear: 2023,
+      expireYear: 23,
       ccv: 123,
     },
   ],

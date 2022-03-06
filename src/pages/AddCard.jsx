@@ -55,6 +55,7 @@ const AddCard = () => {
             type="number"
             className="form-control"
             id="cardnumber"
+            placeholder="XXXX XXXX XXXX XXXX"
             required
             onChange={(event) => setCardnumber(event.target.value)}
           />
@@ -65,6 +66,7 @@ const AddCard = () => {
             type="text"
             className="form-control"
             id="cardholder"
+            placeholder="Firstname Lastname"
             required
             onChange={(event) => setCardholderName(event.target.value)}
           />
@@ -75,6 +77,7 @@ const AddCard = () => {
             type="number"
             className="form-control"
             id="validmonth"
+            placeholder="MM"
             required
             onChange={(event) => setMonth(event.target.value)}
           />
@@ -85,6 +88,7 @@ const AddCard = () => {
             type="number"
             className="form-control"
             id="validyear"
+            placeholder="YY"
             required
             onChange={(event) => setYear(event.target.value)}
           />
@@ -95,6 +99,7 @@ const AddCard = () => {
             type="number"
             className="form-control"
             id="ccv"
+            placeholder="XXX"
             required
             onChange={(event) => setCcv(event.target.value)}
           />
