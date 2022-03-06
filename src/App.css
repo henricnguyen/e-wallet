@@ -14,18 +14,36 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(27, 27, 27);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #313131;
+}
+
+.card-container {
+  cursor: pointer;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.card-container:hover {
+  opacity: 0.5;
+}
+
+small {
+  font-size: 11px;
+}
+
+p {
+  font-size: 16px;
 }
 
 @keyframes App-logo-spin {
